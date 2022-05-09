@@ -6,8 +6,8 @@ export default class WelcomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.upText}> WELCOME TO </Text>
-        <Text style={styles.downText}> Plant Care </Text>
+        <Text style={styles.upText}> BIENVENIDO A </Text>
+        <Text style={styles.downText}> CUIDEMOS LAS PLANTAS </Text>
         <Image source={require('../assets/plant.png')} style={styles.image} />
         <LinearGradient
           style={styles.button}
