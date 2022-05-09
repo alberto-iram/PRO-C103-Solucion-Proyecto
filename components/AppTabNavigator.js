@@ -11,7 +11,7 @@ export const AppTabNavigator = createBottomTabNavigator({
     screen: LogInScreen,
     navigationOptions: {
       tabBarIcon: <Icon name="log-in" type="ionicon" color="green" />,
-      tabBarLabel: 'Log-in',
+      tabBarLabel: 'Iniciar sesión',
     },
   },
   
@@ -19,7 +19,7 @@ export const AppTabNavigator = createBottomTabNavigator({
     screen: SignUpScreen,
     navigationOptions: {
       tabBarIcon: <Icon name="person-add" type="ionicon" color="green" />,
-      tabBarLabel: 'Sign-Up',
+      tabBarLabel: 'Registrarse',
     }, 
   },
 });
